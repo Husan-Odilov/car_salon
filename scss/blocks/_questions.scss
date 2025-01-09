@@ -49,12 +49,12 @@ text-decoration-skip-ink: none;
 }
 @media only screen and (max-width: 480px) {
     .brand__wrapper{
-        max-width: 480px;
+        max-width: 478px;
         overflow: scroll;
     }
     .questions__wrapper{
         position: relative;
-        max-width: 480px;
+        max-width: 478px;
         flex-direction: column;
     }
     .quest__img{

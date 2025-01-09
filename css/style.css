@@ -774,17 +774,17 @@ p {
     flex-direction: column;
   }
   .premium__img {
-    max-width: 480px;
+    max-width: 450px;
     height: 250px;
   }
   .nado {
     margin-top: 100px;
   }
   .left {
-    max-width: 480px;
+    max-width: 478;
   }
   .right {
-    max-width: 480px;
+    max-width: 478px;
   }
   .premium__info::after {
     top: 150px;
@@ -1270,6 +1270,9 @@ p {
             text-decoration-skip-ink: none;
     max-width: 250px;
   }
+  .cheap {
+    background-position: center;
+  }
   .cheap__text {
     font-family: in;
     font-size: 18px;
@@ -1352,12 +1355,12 @@ p {
 
 @media only screen and (max-width: 480px) {
   .brand__wrapper {
-    max-width: 480px;
+    max-width: 478px;
     overflow: scroll;
   }
   .questions__wrapper {
     position: relative;
-    max-width: 480px;
+    max-width: 478px;
     flex-direction: column;
   }
   .quest__img {
