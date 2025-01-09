@@ -12,19 +12,11 @@
 .footer__left {
     margin-left: 100px;
 }
-.footer__logo {
-}
 .footer__info {
     padding: 20px 0;
     display: flex;
     align-items: center;
     gap: 43px;
-}
-.footer__tel {
- 
-}
-.footer__time {
-    
 }
 
 .footer__img{
@@ -43,16 +35,6 @@
     color: white;
     border: 2px solid white;
 }
-.footer__info-2 {
-    
-}
-.footer__loc {
-}
-.footem__mail {
-
-}
-.footer__right {
-}
 .footer__menu {
     display: flex;
     align-items: center;
@@ -66,9 +48,6 @@ line-height: 20px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
-}
-.footer__menu__two {
 
 }
 .footer__item__two {
@@ -88,7 +67,7 @@ text-decoration-skip-ink: none;
 
 @media only screen and (max-width: 480px) {
     .footer{
-        max-width: 480px;
+        max-width: 478px;
     }
     .footer__wrapper{
         flex-direction: column;
