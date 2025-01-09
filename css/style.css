@@ -149,7 +149,7 @@ p {
 
 .header__icon--messange::after {
   content: "1";
-  max-width: 20px;
+  width: 20px;
   border-radius: 50px;
   position: absolute;
   display: flex;
@@ -706,7 +706,7 @@ p {
 
 .premium__img {
   max-width: 690px;
-  height: 390px;
+  max-height: 390px;
 }
 
 .premium__info {
@@ -778,9 +778,12 @@ p {
   .premium__img {
     max-width: 450px;
     height: 250px;
+    width: 360px;
   }
   .nado {
     margin-top: 100px;
+    max-width: 450px;
+    height: 250px;
   }
   .left {
     max-width: 478;
@@ -990,6 +993,9 @@ p {
 }
 
 @media only screen and (max-width: 480px) {
+  .card__img {
+    max-width: 478px;
+  }
   .aksiya__wrapper {
     flex-direction: column-reverse;
     position: relative;
@@ -1101,8 +1107,8 @@ p {
     flex-direction: column;
   }
   .service__img {
-    max-width: 450px;
-    height: 190px;
+    width: 360px;
+    height: 200px;
     margin-top: 30px;
   }
 }
@@ -1391,5 +1397,94 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
+  }
+}
+.footer {
+  margin-top: 100px;
+  background-color: #1D1D1D;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+.footer__left {
+  margin-left: 100px;
+}
+
+.footer__info {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+
+.footer__img {
+  display: inline;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__btn {
+  padding: 15px 50px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid white;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.footer__item {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.footer__item__two {
+  color: #AFAFAF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.white {
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    max-width: 480px;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .footer__menu {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer__info {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

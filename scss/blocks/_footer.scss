@@ -1,0 +1,102 @@
+.footer {
+    margin-top: 100px;
+    background-color: #1D1D1D;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+.footer__left {
+    margin-left: 100px;
+}
+.footer__logo {
+}
+.footer__info {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+.footer__tel {
+ 
+}
+.footer__time {
+    
+}
+
+.footer__img{
+    display: inline;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__btn {
+    padding: 15px 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+}
+.footer__info-2 {
+    
+}
+.footer__loc {
+}
+.footem__mail {
+
+}
+.footer__right {
+}
+.footer__menu {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.footer__item {
+    color: white;
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.footer__menu__two {
+
+}
+.footer__item__two {
+    color: #AFAFAF;
+font-size: 16px;
+font-weight: 700;
+line-height: 34px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.white{
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer{
+        max-width: 480px;
+    }
+    .footer__wrapper{
+        flex-direction: column;
+    }.footer__menu{
+        flex-direction: column;
+        gap: 50px;
+    }
+   .footer__info{
+    flex-direction: column;
+   }
+}

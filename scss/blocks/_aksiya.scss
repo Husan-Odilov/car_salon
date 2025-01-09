@@ -85,6 +85,9 @@ padding-bottom: 30px;
 
 }
 @media only screen and (max-width: 480px) {
+    .card__img{
+        max-width: 478px;
+    }
     .aksiya__wrapper{
         flex-direction: column-reverse;
         position: relative;

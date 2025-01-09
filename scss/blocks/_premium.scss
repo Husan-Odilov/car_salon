@@ -20,13 +20,9 @@ font-family: in;
     gap: 30px;
     margin-top: 40px;
 }
-.left {
-
-
-}
 .premium__img {
     max-width: 690px;
-height: 390px;
+max-height: 390px;
 
 }
 .premium__info {
@@ -68,9 +64,7 @@ text-decoration-skip-ink: none;
     top: 10%;
 }
 
-.right {
-
-}
+ 
 
 
     @media only screen and (max-width:480px){
@@ -102,10 +96,14 @@ text-decoration-skip-ink: none;
         .premium__img{
             max-width: 450px;
             height: 250px;
+            width: 360px;
         }
         
        .nado{
+ 
         margin-top: 100px;
+        max-width: 450px;
+        height: 250px;
        }
 
         .left{

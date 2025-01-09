@@ -35,8 +35,7 @@ margin: 0 auto 100px;
     display: flex;
     justify-content: space-around;
 }
-.service__card {
-}
+ 
 .service__name {
     font-family: in;
 font-size: 20px;
@@ -67,8 +66,8 @@ margin-left: 20px;
         flex-direction: column;
     }
     .service__img{
-        max-width: 450px;
-        height: 190px;
+        width: 360px;
+        height: 200px;
         margin-top: 30px;
     }
 }
