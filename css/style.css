@@ -95,7 +95,7 @@ p {
 .header__span {
   display: inline-block;
   height: 30px;
-  width: 1px;
+  max-width: 1px;
   background-color: #fff;
 }
 
@@ -149,7 +149,7 @@ p {
 
 .header__icon--messange::after {
   content: "1";
-  width: 20px;
+  max-width: 20px;
   border-radius: 50px;
   position: absolute;
   display: flex;
@@ -370,7 +370,7 @@ p {
   content: "";
   background-image: url(../../imgs/bug.svg);
   position: absolute;
-  width: 20px;
+  max-width: 20px;
   height: 20px;
   background-repeat: no-repeat;
   left: -25px;
@@ -381,7 +381,7 @@ p {
   content: "";
   background-image: url(../../imgs/speed.svg);
   position: absolute;
-  width: 20px;
+  max-width: 20px;
   height: 20px;
   background-repeat: no-repeat;
   left: -25px;
@@ -505,7 +505,7 @@ p {
 }
 
 .avtopark__btn {
-  width: 200px;
+  max-width: 200px;
   position: relative;
   right: 20px;
 }
@@ -620,6 +620,7 @@ p {
   padding: 20px 100px;
   border-radius: 20px;
   margin-top: 30px;
+  max-width: 352px;
 }
 
 .login__btn {
@@ -630,6 +631,7 @@ p {
   border-radius: 10px;
   border: 2px solid white;
   color: white;
+  max-width: 352px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -703,7 +705,7 @@ p {
 }
 
 .premium__img {
-  width: 690px;
+  max-width: 690px;
   height: 390px;
 }
 
@@ -743,7 +745,7 @@ p {
   background-image: url(/imgs/Group\ 58.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 50px;
+  max-width: 50px;
   height: 54px;
   right: 10%;
   top: 10%;
@@ -807,7 +809,7 @@ p {
           text-decoration-skip-ink: none;
   color: black;
   margin-bottom: 100px;
-  width: 710px;
+  max-width: 710px;
 }
 
 .steps__wrapper {
@@ -1037,7 +1039,7 @@ p {
   background-image: url(../../imgs/Group\ 58.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 50px;
+  max-width: 50px;
   height: 54px;
   right: -25%;
   top: 10%;
@@ -1057,7 +1059,7 @@ p {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: black;
-  width: 503px;
+  max-width: 503px;
   margin: 0 auto 100px;
 }
 
@@ -1078,7 +1080,7 @@ p {
           text-decoration-skip-ink: none;
   color: black;
   position: relative;
-  width: 252.11px;
+  max-width: 252.11px;
   margin-top: 20px;
 }
 
