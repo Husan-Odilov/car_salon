@@ -1,0 +1,127 @@
+.cheap {
+    background-image: url(../../imgs/zabil.png);
+    background-size: cover;
+    padding: 120px 200px 40px 100px;
+}
+
+.cheap__wrapper {
+display: flex;
+gap: 77px;
+margin-bottom: 50px;
+
+}
+.cheap__information {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cheap__title {
+    font-family: in;
+font-size: 48px;
+font-weight: 700;
+line-height: 62px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 
+531px;
+}
+.cheap__text {
+    font-family: in;
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 
+480.03px;
+}
+.cheap__info {
+    font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #9F9F9F;
+width: 
+480.03px;
+}
+.cheap__informationn {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.cheap__titlee {
+    font-family: in;
+font-size: 48px;
+font-weight: 700;
+line-height: 62px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+@media only screen and (max-width: 480px){
+.cheap__wrapper{
+    flex-direction: column-reverse;
+    
+}
+.nadoo{
+    flex-direction: column;
+}
+.cheap__img{
+    width: 280px;
+    height: 210px;
+}
+.cheap{
+    padding: 20px;
+}
+.cheap__title{
+    font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 250px;
+}
+
+.cheap__text{
+    font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 280px;
+}
+
+.cheap__info{
+    font-family: in;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 280px;
+}
+
+.cheap__titlee{
+    font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 280px;
+}
+
+}

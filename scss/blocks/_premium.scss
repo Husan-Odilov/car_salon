@@ -72,9 +72,21 @@ text-decoration-skip-ink: none;
 
 }
 
-@media only screen and (max-width:480px){
-    .login__title{
-        font-family: in;
+
+    @media only screen and (max-width:480px){
+        .login__title{
+            font-family: in;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+        }
+
+.premium__title{
+    font-family: in;
 font-size: 18px;
 font-weight: 700;
 line-height: 27px;
@@ -82,6 +94,29 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
+}
+
+        .premium__wrapper{
+            flex-direction: column;
+        }
+        .premium__img{
+            max-width: 480px;
+            height: 250px;
+        }
+        
+       .nado{
+        margin-top: 100px;
+       }
+
+        .left{
+            max-width: 480px;
+        }
+        .right{
+            max-width: 480px;
+        }
+        .premium__info::after{
+            top: 150px;
+            left: 0;
+        }
     }
     
-}

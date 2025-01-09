@@ -1,0 +1,64 @@
+.service__name::after{
+    content: "";
+    position: absolute;
+    background-image: url(../../imgs/Group\ 58.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 54px;
+    right: -25%;
+    top: 10%;
+}
+
+
+
+.service {
+    margin-top: 200px;
+}
+
+.service__title {
+    font-family: in;
+font-size: 48px;
+font-weight: 700;
+line-height: 62px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+width: 463px;
+margin: 0 auto 100px;
+
+}
+.service__wrapper {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.service__card {
+}
+.service__name {
+    font-family: in;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+position: relative;
+width: 252.11px;
+margin-top: 20px;
+}
+
+@media only screen and (max-width:480px) {
+    .service__title{
+        font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+}
