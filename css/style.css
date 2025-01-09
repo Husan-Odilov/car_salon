@@ -1199,7 +1199,7 @@ p {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  width: 531px;
+  max-width: 531px;
 }
 
 .cheap__text {
@@ -1211,7 +1211,7 @@ p {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  width: 480.03px;
+  max-width: 480.03px;
 }
 
 .cheap__info {
@@ -1224,7 +1224,7 @@ p {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #9F9F9F;
-  width: 480.03px;
+  max-width: 480.03px;
 }
 
 .cheap__informationn {
