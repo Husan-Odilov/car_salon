@@ -25,7 +25,8 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: black;
-width: 463px;
+width: 
+503px;
 margin: 0 auto 100px;
 
 }
@@ -59,6 +60,15 @@ line-height: 27px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
+margin-bottom: 50px;
+margin-left: 20px;
+    }
+    .service__wrapper{
+        flex-direction: column;
+    }
+    .service__img{
+        width: 450px;
+        height: 190px;
+        margin-top: 30px;
     }
 }

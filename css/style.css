@@ -995,6 +995,8 @@ p {
   .aksiya {
     height: auto;
     margin-top: 150px;
+    background-position: center;
+    padding: 20px;
   }
   .aksiya__title {
     font-family: in;
@@ -1055,7 +1057,7 @@ p {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: black;
-  width: 463px;
+  width: 503px;
   margin: 0 auto 100px;
 }
 
@@ -1090,12 +1092,90 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .service__wrapper {
+    flex-direction: column;
+  }
+  .service__img {
+    width: 450px;
+    height: 190px;
+    margin-top: 30px;
+  }
+}
+.cause {
+  margin-top: 200px;
+}
+
+.cause__title {
+  font-family: in;
+  color: #1F1F1F;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.cause__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cause__card {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 50px;
+}
+
+.cause__subtitle {
+  font-family: in;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.cause__text {
+  color: #989898;
+  font-family: in;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .cause__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+  }
+  .cause__wrapper {
+    flex-direction: column;
   }
 }
 .cheap {
   background-image: url(../../imgs/zabil.png);
   background-size: cover;
   padding: 120px 200px 40px 100px;
+  margin-top: 200px;
 }
 
 .cheap__wrapper {
@@ -1173,7 +1253,7 @@ p {
     flex-direction: column;
   }
   .cheap__img {
-    width: 280px;
+    width: 450px;
     height: 210px;
   }
   .cheap {
@@ -1199,7 +1279,7 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
-    width: 280px;
+    width: 450px;
   }
   .cheap__info {
     font-family: in;
@@ -1210,7 +1290,7 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
-    width: 280px;
+    width: 450px;
   }
   .cheap__titlee {
     font-family: in;
@@ -1221,6 +1301,90 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
-    width: 280px;
+    width: 450px;
+  }
+}
+.questions {
+  margin-top: 150px;
+}
+
+.brand__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questions__wrapper {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quest__title {
+  color: #1F1F1F;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.quest__text {
+  margin: 50px 0;
+  color: #9F9F9F;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.quest {
+  background-color: black;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .brand__wrapper {
+    max-width: 480px;
+    overflow: scroll;
+  }
+  .questions__wrapper {
+    position: relative;
+    max-width: 480px;
+    flex-direction: column;
+  }
+  .quest__img {
+    position: absolute;
+    width: 144px;
+    height: 225px;
+    bottom: 0%;
+  }
+  .questions__info {
+    margin-bottom: 250px;
+  }
+  .quest__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+  }
+  .quest__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
   }
 }/*# sourceMappingURL=style.css.map */
