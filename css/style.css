@@ -363,7 +363,7 @@ p {
             text-decoration-skip-ink: none;
   }
   .flexi {
-    gap: 280px;
+    justify-content: space-around;
   }
 }
 .cards__text--mah::before {
