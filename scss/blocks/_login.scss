@@ -1,0 +1,116 @@
+.login {
+    background-image: url(../../imgs/bg.png);
+    background-size: cover;
+
+    margin-top: 40px;
+}
+ 
+.login__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.login__title {
+    padding-top: 80px;
+   color: white;
+font-size: 48px;
+font-weight: 700;
+line-height: 62px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: in;
+
+}
+.login__text {
+    font-family: in;
+    padding: 60px 0;
+   color: white;
+font-size: 20px;
+font-weight: 700;
+line-height: 38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.login__text-two {
+    font-family: in;
+  color: white;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+ 
+.login__input {
+    display: block;
+    padding: 20px 100px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.login__btn {
+    padding: 20px 130px;
+    margin-top: 20px;
+    margin-left: 4px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+@media only screen and (max-width: 480px){
+    .login__wrapper{
+        flex-direction: column-reverse;
+        padding: 10px;
+        position: relative;
+    }
+    .login{
+        background-position: center;
+    }
+
+    .login__text{
+        font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+
+
+    .login__text-two{
+        font-family: in;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+
+    .login__title{
+        font-family: in;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+position: absolute;
+top: 0;
+
+    }
+
+.login__right{
+    margin-top: 120px;
+}
+}
