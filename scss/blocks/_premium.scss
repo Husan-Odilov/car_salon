@@ -94,15 +94,16 @@ text-decoration-skip-ink: none;
             flex-direction: column;
         }
         .premium__img{
-            max-width: 450px;
+            max-width: 100%;
             height: 250px;
-            width: 360px;
+            
         }
         
-       .nado{
+        .nado{
+           max-width: 100%;
  
         margin-top: 100px;
-        max-width: 450px;
+
         height: 250px;
        }
 

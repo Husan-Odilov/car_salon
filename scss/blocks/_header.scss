@@ -1,13 +1,14 @@
 .header {
     background-color: #181818;
- 
+    
 }
 
-.header__wrapper {   display: flex;
+.header__wrapper {  
+     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
+    
 }
 .header__left {
 display: flex;
@@ -111,14 +112,14 @@ position: relative;
     .header__location{
         display: none;
     }
-    .header__wrapper{
-        justify-self: flex-start;
-    }
+
     
 
 .header__wrapper{
     max-width: 478px;
-    gap: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+
 }
     .header__btn{
         display: none;

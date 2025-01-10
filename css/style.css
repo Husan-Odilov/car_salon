@@ -172,11 +172,9 @@ p {
     display: none;
   }
   .header__wrapper {
-    justify-self: flex-start;
-  }
-  .header__wrapper {
     max-width: 478px;
-    gap: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
   }
   .header__btn {
     display: none;
@@ -637,7 +635,7 @@ p {
 @media only screen and (max-width: 480px) {
   .login__wrapper {
     flex-direction: column-reverse;
-    padding: 10px;
+    padding: 20px;
     position: relative;
   }
   .login {
@@ -653,6 +651,10 @@ p {
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
   }
+  .login__input {
+    max-width: 340px;
+    border: none;
+  }
   .login__text-two {
     font-family: in;
     font-size: 14px;
@@ -662,6 +664,7 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
+    color: #FFFFFF;
   }
   .login__title {
     font-family: in;
@@ -776,13 +779,12 @@ p {
     flex-direction: column;
   }
   .premium__img {
-    max-width: 450px;
+    max-width: 100%;
     height: 250px;
-    width: 360px;
   }
   .nado {
+    max-width: 100%;
     margin-top: 100px;
-    max-width: 450px;
     height: 250px;
   }
   .left {
@@ -994,7 +996,7 @@ p {
 
 @media only screen and (max-width: 480px) {
   .card__img {
-    max-width: 478px;
+    max-width: 100%;
   }
   .aksiya__wrapper {
     flex-direction: column-reverse;
@@ -1107,7 +1109,7 @@ p {
     flex-direction: column;
   }
   .service__img {
-    width: 360px;
+    width: 100%;
     height: 200px;
     margin-top: 30px;
   }

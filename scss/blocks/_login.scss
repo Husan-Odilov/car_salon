@@ -70,34 +70,38 @@ text-decoration-skip-ink: none;
 @media only screen and (max-width: 480px){
     .login__wrapper{
         flex-direction: column-reverse;
-        padding: 10px;
+        padding: 20px;
         position: relative;
     }
     .login{
         background-position: center;
     }
-
+    
     .login__text{
         font-family: in;
-font-size: 18px;
-font-weight: 700;
-line-height: 22px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
     }
-
-
+    .login__input{
+        max-width: 340px;
+        border: none;
+    }
+    
+    
     .login__text-two{
         font-family: in;
-font-size: 14px;
+        font-size: 14px;
 font-weight: 700;
 line-height: 20px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
+color: #FFFFFF;
     }
 
     .login__title{
