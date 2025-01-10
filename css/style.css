@@ -622,7 +622,7 @@ p {
 }
 
 .login__btn {
-  padding: 20px 130px;
+  padding: 20px 0;
   margin-top: 20px;
   margin-left: 4px;
   background-color: transparent;
@@ -630,6 +630,7 @@ p {
   border: 2px solid white;
   color: white;
   max-width: 352px;
+  min-width: 300px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -1116,6 +1117,7 @@ p {
 }
 .cause {
   margin-top: 200px;
+  padding: 15px;
 }
 
 .cause__title {
@@ -1359,8 +1361,8 @@ p {
 
 .quest {
   background-color: black;
+  width: 300px;
   margin-left: 20px;
-  margin-top: 30px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -1383,6 +1385,7 @@ p {
     margin-bottom: 250px;
   }
   .quest__title {
+    margin-left: 15px;
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
@@ -1399,6 +1402,7 @@ p {
     text-underline-position: from-font;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
+    margin-left: 15px;
   }
 }
 .footer {
