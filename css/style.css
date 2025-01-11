@@ -711,6 +711,7 @@ p {
 .premium__img {
   max-width: 690px;
   max-height: 390px;
+  border-radius: 13px;
 }
 
 .premium__info {
